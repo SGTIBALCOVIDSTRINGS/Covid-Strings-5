@@ -34,21 +34,21 @@ char[] chars = new char[numberofblanks]
 arrays.fill chars 
 return new string chars
 advancingteams=slice(current teams)
-bracket.innerHTML = html;
+bracket.innerhtml = html;
 result= declarewinner(team1 score, team2 score)
 if intermediate seed1 score>=fourty:
 console.log(intermediate seed1 wins)
 else:
 console.log(intermediate seed2 wins)
 advancingteams=slice(currentteams)
-declare Winner 
-if  Highest Remaining Seed Score >=fourty:
+declarewinner 
+if  highest remaining seed score >=fourty:
 cnsole.log(highest remaining seed wins)
 else:
 console.log(lowest remaining seed wins)
 if intermediate seed 1 score>=fourty:
 console.log(intermediate seed 1 wins)
 else:
-console.log(intermeidate seed 2 wins)
+console.log(intermediate seed 2 wins)
 return filename
         
