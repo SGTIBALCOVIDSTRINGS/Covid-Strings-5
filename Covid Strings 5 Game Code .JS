@@ -86,35 +86,37 @@ covidstrings5multiplechoicelist=[1:a replacing gas stoves with electric ones b w
 11: a policymakers b stockbrokers c financial advisers d undertakers, 12: a deflation b inflation c stagflation d coviflation, 13: a work out b do your taxes c work d sing, 14: a less productive b a pervert c an absent father d a couch potato,
 15: a scenario b gadget c trump card  d joker, 16: a yes b no, 17: a yes b no]
 covidstrings5mathproblemslist=[if gordon chang had three warnings that china was not done with deadly viruses post covid and it took thirty six months before the first report of a new virus was detected if he issued a warning once every six months how long did the cycle go for?,if after eightteen months newsweek said that your warnings smack too much like a boy who cried wolf scenario if gordon chang stopped publishing his warnings three months after newsweeks notice how much time was lost?, if a study says that work from home has reduced greenhouse gas emissions by sixty percent and the number of people who support work from home overall is eighty percent how many people are supporting work from home because of green house gas reduction if fourty percent say it is not their top concern?,if a poll found that sixty seven percent say if they had the option to work remotely they would take it how many wouldnt?,if the polls margin of error is one and twenty five hundredths percent what is the range?,if nine percent of no’s knew  that working from home was more flexible for them they would be open to working remotely what is the new percent?”,“if 70 percent said the work from home experience was something they would not forget is it a supermajority?”,”it does not matter what reason you work from home people know something’s different?”,if”+”a”+”poll”+”found”+”that”+”67”+”percent”+”of”+”americans”+”support”+”the”+”idea”+”that”+”making”+”sure”+”that”+”people”+”get”+”vaccinated”+”against”+”the”+”tripledemic”+”is”+”important” +”if”+”the”+”same”+”poll”+”says”+”those”+”who”+”might”+”get”+”overloaded”+”is”+”23”+”percent” +”what”+”is”+”the”+”new”+”percent?”,”if”+”four”+”fifths”+”of”+”respondents”+”said”+”that”+”if”+”a”+”surge”+”happened”+”in”+”their”+”community”+”they”+”would”+”reconsider”+”their”+”fatigue”+”what”+”is”+”the”+”new”+”percent?”,“if”+”90”+”percent”+”of”+”the”+”23”+”percent”+”say”+”that”+”they”+”will”+”get”+”vaccinated” ”+”if”+”at”+”least”+”one”+”friend”+recommends+it+what+would+the+new+percent+of+people+worn+out+be?,if+a+poll+found+that+75+percent+of+people+agreed+that+vaccines+do+not+cause+heart+conditions+if+said+poll+showed+that+new+research+increases+agreement+by+3+percent+what+is+the+new+percent?,a+new+report+claims+covid+was+circulating+in+europe+as+far+back+as+september+if+true+how+much+lag+time+was+there?,a+new+map+says+that+the+highest+probability+for+covid+infection+is+in+the+northeast+with+an+average+rate+of+fifteen percent +if+the+national+rate+is+twelve and five ninths percent+what+is+the+difference?, if+reporting+shows+that+covid+was+spreading+two+weeks+earlier+than+previously+reported +when+should+the+whistle+have+been+blown?,a+study+suggests+that+covid+was+in+america+as+early+as+december+twenty-nineteen+if+the+first+official+cases+were+not+reported+until+february+twenty-twenty+how+much+lag+time+existed?]
-Covid Strings5 Sentence List=[It Does Not Matter What Reason You Work From Home People Know Somethings Different?, No Work From Home Does Not Mean Youre Less Productive]
-String.Split   
-Arrays.AsList(List<String>)
-For (String Ss:Arr){
-System.OutprintIn(Ss)
-Import Java Util.Scanner
-Import Java.Util
-Questions[]Questions={
-Collections.Shuffle(Arrays.Aslist(Questions)
-Userin.Select Team
-Import Meta.
-Class MyClass
-constructor (Non-Concatenated)
-Return Category
-If Category==Math Problem:
-Type Answer
-Else:
-Select from Multiple Choice
-Constmyclass=new.Myclass(Concatenated)
-Return Category
-If Category==Math Problem:
-Type Answer
-Else:
-Select from Multiple Choice
-Import Syntax 
-Substring(Start,End)
-Userin.Multiple Choice
-If SelectedAnswer==Correct Answer:
-Return true
-Else:
-Return false
-return FileName
+covid strings5 sentence list=[it does not matter what reason you work from home people know somethings different?, no work from home does not mean youre less productive]
+string.split   
+arrays.aslist(list<string>)
+for(string ss:arr){
+system.outprintin(ss)
+java util.scanner
+java.util
+questions[]questions={
+collections.shuffle(arrays.aslist(questions)
+userin.select team
+import meta.
+class myclass
+constructor (non-concatenated)
+return category
+if category==math problem:
+prompt
+log
+else:
+select from multiple choice
+constmyclass=new.myclass(concatenated)
+return category
+if category==math problem:
+prompt
+log
+else:
+select from multiple choice
+import syntax 
+substring(start,end)
+userin.multiple choice
+if selectedanswer==correct answer:
+return true
+else:
+return false
+return filename
