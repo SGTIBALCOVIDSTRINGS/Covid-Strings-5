@@ -34,7 +34,7 @@ matchup = document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML = <div>${team1}</div><div>${team2}</div>
 return matchup;
-create matchup (pink Covid Disease Fighters Violet Relivers )
+create matchup (pink versus violet )
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
 matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
