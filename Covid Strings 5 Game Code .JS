@@ -1,6 +1,6 @@
 doc.type.html
 script
-filename=covidstrings5.js
+filename=covidstrings5 game code.js
 java.awt graphics
 img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
@@ -9,19 +9,19 @@ src.appendchild(this.img)
 <div id=header></div> 
 audio=newaudio(audio_file mp3)
 audio.play 
-jbutton random button
+random button
 newjbutton(set random color)
 private final jbutton option button=
-new j button (change color)
+new  button (change color)
 public fun with graphics(){
-jpanel color panel=new j panel();
+color panel=new j panel();
 add (panel,center )
-j panel button panel=
+button panel
 new j panel(flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
-public  actionperformed(actionevent e){
+public actionperformed(actionevent e){
 random r= newrandom();
 colorpanel.setbackground(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen),)(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))(rnextint(thirteen)))
 num teams
@@ -34,12 +34,12 @@ teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
 optionbutton.add actionlistener(new action listener(){
 override 
-public void actionperformed(actionevent e){
+public actionperformed(actionevent e){
 color m=jcolorchooser.showdialog(funwithgraphics.this)
 if(multi!=null)
 color panel set.background(multi)
 this.add(buttonpanel,borderlayout.south)
-public static void main(string [] args){
+public static main(string [] args){
 jframe f = new covid strings5()
 f.set title(covid strings5)
 f.set default closeoperation(jframe.exit_on_close);
@@ -69,7 +69,7 @@ object {a:one,b:two,c:three,d:four,e:five,f:six,g:seven,h:eight}
 keys object keys(team)
 entries object entries(obj);
 value object=[team color]
-covidstringsteamlist5=[burgundy,blue,violet,red,turquoise,pink,indigo,teal]
+covidstringsteamlist5=[burgundy rebuilders,blue curve crushers,violet relivers,red protein spikers,turquoise waves,pink covid disease fighters,indigo isos,teal terminators]
 covidstrings5phraselist=[non-concatenatedstrings some more good news about work from home involves the energy impact
 this helps deal with the whole quarantined at home narrative
 another bit of good news involves increased efficiency and productivity
@@ -112,7 +112,7 @@ prompt
 log
 else:
 select from multiple choice
-constmyclass=new.myclass(concatenated)
+myclass=new.myclass(concatenated)
 return category
 if category==math problem:
 prompt
@@ -130,7 +130,7 @@ answer checker
 scanner=new scanner(system.in)
 string correct answer
 string useranswer=scanner.nextline()
-if useranswer.equals((correctanswer))
+if useranswer.equals(correctanswer)
 system.out.print.in(correct)
 else:
 system.out.printin(incorrect)
@@ -140,4 +140,8 @@ if winner==true:
 log(the winner is)
 if winner==false:
 log(no winner yet) 
+if users team wins covid strings5 
+console log users team wins covid strings5 
+else
+return game over
 return filename
