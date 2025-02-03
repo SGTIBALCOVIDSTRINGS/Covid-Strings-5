@@ -1,16 +1,18 @@
-<doc.type html>
-<script>
+doc.type html
+script
 html 
 head
 utf-eight
 viewport content=width=device-width, initial-scale=one>
 title covid strings5 first round bracket
+div id bracket class bracket div
+script src bracket .js
 style
 bracket 
 matchup
 solid zero
-<div id=bracket class=bracket></div>
-script src=bracket.js
+padding 
+text align center 
 filename=covid strings5 first round .js
 first round=(highest overall seed ,second highest seed third highest seed first middle seed, second middle seed,  third lowest seed ,second lowest seed,lowest overall seed)
 highest overall seed = 1 seed
