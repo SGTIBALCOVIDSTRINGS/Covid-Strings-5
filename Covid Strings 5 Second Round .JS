@@ -2,6 +2,19 @@ doc. type. html
 script
 html
 head
+utf8
+viewport content=width=device-width, initial-scale=one>
+title covidstrings5secondround bracket
+div id bracket class bracket div
+script src bracket .js
+link rel= stylesheet href=css
+head
+body
+bracket-container{}
+matchup
+solid zero;
+padding 
+text align center
 filename=covidstrings5secondround.js
 highestremainingseed =(greatest remaining num value in covid strings list)
 lowest remaining seed = (lowest remaining num value in covid strings list)
