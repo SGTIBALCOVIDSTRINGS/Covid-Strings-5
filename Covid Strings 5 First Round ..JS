@@ -3,7 +3,7 @@ script
 html 
 head
 utf-eight
-viewport content=width=device-width, initial-scale=one>
+viewport content=width=device-width, initial-scale=one
 title covid strings5 first round bracket
 div id bracket class bracket div
 script src bracket .js
@@ -18,7 +18,7 @@ first round=(highest overall seed ,second highest seed third highest seed first 
 highest overall seed = 1 seed
 second highest seed=2 seed
 third highest seed=3 seed
-firstmiddleseed=4seed
+first middle seed=4seed
 second middle seed = 5 seed
 third lowest seed= 6 seed
 second lowest seed = 7 seed
@@ -26,32 +26,32 @@ lowest overall seed = 8 seed
 document.addeventlistener(domcontentloaded, () => {
 bracket =document.getelementbyid(bracket);
 teams= [burgundy,blue,violet,red,turquoise,pink,indigo,teal]
-create matchup(turquoise versus red)
+matchup1=(turquoise versus red)
 matchup = document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML = <div>${team1}</div><div>${team2}</div>
+matchup.inner html = <div>${team1}</div><div>${team2}</div>
 return matchup;
-create matchup (indigo versus blue)
+matchup2=(indigo versus blue)
 matchup = document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML = <div>${team1}</div><div>${team2}</div>
+matchup.inner html= <div>${team1}</div><div>${team2}</div>
 return matchup;
-create matchup (pink versus violet )
+matchup3=(pink versus violet )
 matchup =document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
+matchup.inner html= <div>${team1}</div><div>${team2}</div>;
 return matchup;
-create matchup (teal versus burgundy)
+matchup4=(teal versus burgundy)
 matchup = document.createelement(div);
 matchup.classlist.add(matchup);
-matchup.innerHTML = <div>${team1}</div><div>${team2}</div>;
+matchup.inner html = <div>${team1}</div><div>${team2}</div>;
 return matchup
 create round 
 round =document.createelement(div)
 round.class list (covid strings5 first round)
 createbracket = (teams) => 
 currentteams = teams;
-while(currentteams.length >one)
+while(currentteams.length>one)
 bracket.appendchild(createround(currentteams));
 java util.scanner
 java.util
@@ -76,23 +76,24 @@ question17
 question18
 question19
 collections.shuffle(arrays.aslist(questions)
-advanceteams =slice(currentteams)
-result=declarewinner(team1score,team2score)
-if red score>=fourty:
+advanceteams=slice(currentteams)
+result=declarewinner(matchup1)
+if red score>=forty:
 console.log(red protein spikers win)
 else:
 console.log(turquoise waves win)
-result=declarewinner(team1score,team2score)
-if blue score>=fourty:
+result=declarewinner(matchup2)
+if blue score>=forty:
 console.log(blue curve crushers win)
 else:
 console.log(indigo isos win)
-result=declarewinner(team1score, team2score)
-if violetscore>=fourty:
+result=declarewinner(matchup3)
+if violet score>=forty:
 console.log(violet relivers win)
 else:
 console.log(pink covid disease fighters win)
-if burgundy score>=fourty:
+result=declarewinner(matchupr)
+if burgundy score>=forty:
 console.log(burgundy rebuilders win)
 else:
 console.log(teal terminators win)
