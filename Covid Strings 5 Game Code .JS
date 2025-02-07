@@ -1,6 +1,6 @@
 doc.type.html
 script
-filename=covidstrings5 game code.js
+filename=covidstrings5.js
 java.awt graphics
 img=document.createelement(covid)
 img.src=http://www.google.com/intl/en_com/images/logo_plain.png
@@ -10,14 +10,14 @@ src.appendchild(this.img)
 audio=newaudio(audio_file mp3)
 audio.play 
 random button
-newjbutton(set random color)
+new button(set random color)
 option button
 new  button (change color)
 public fun with graphics(){
-color panel=new j panel();
+color panel=new  panel();
 add (panel,center )
 button panel
-new j panel(flowlayout.center)
+new  panel(flowlayout.center)
 buttonpanel.add(randombutton);
 random.button add actionlistener(new action listener)
 override 
@@ -32,7 +32,7 @@ else
 return math floor total players/players per team
 teamsgrouping=(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)(rnextint8)
 buttonpanel.add(optionbutton);
-optionbutton.add actionlistener(new action listener(){
+optionbutton.add actionlistener(new action listener)
 override 
 public actionperformed(actionevent e){
 color m=jcolorchooser.showdialog(funwithgraphics.this)
@@ -58,10 +58,10 @@ score+=twenty
 else:
 score-=twenty
 lblscore=document.getelementbyid(lblscore)
-lbl.score.innerHTML=score
-private j button next button=new jbutton(next)
-nextbutton add.actionlistener(this)
-public void actionperformed(action event e) 
+lbl.score.inner html=score
+next button=new button(next)
+next button add.actionlistener(this)
+public actionperformed(action event e) 
 system.out print.in (next button clicked)
 frame.add(next button);
 frame set visible true
@@ -70,7 +70,7 @@ keys object keys(team)
 entries object entries(obj);
 value object=[team color]
 covidstringsteamlist5=[burgundy rebuilders,blue curve crushers,violet relivers,red protein spikers,turquoise waves,pink covid disease fighters,indigo isos,teal terminators]
-covidstrings5phraselist=[non-concatenatedstrings "some more good news about work from home involves the energy impact"
+covidstrings5phraselist=[non-concatenated strings "some more good news about work from home involves the energy impact"
 "this helps deal with the whole quarantined at home narrative"
 "another bit of good news involves increased efficiency and productivity"
 "it should also decrease ones level of concern that working at home means doing nothing"
