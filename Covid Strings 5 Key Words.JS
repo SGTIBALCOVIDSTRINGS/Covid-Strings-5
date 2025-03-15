@@ -108,7 +108,7 @@ entity script foobar=this entity
 entity reparnet (this.entity)
 k=pc.create script(k);
 k.attributes.add(foobar, {type:entity});
-K.Prototype.Initialize =Function() {
+k.prototype.initialize =function() 
 console.log(this.foobar.name);
 asset=this app.assets.find()
 template asset resource 
