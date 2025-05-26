@@ -106,25 +106,65 @@ question16
 question17
 question18
 question19
+team1=lower ranked seed
+team2=the higher seeded opponent
+points: 10 points or 20 points
+<subheading.html>
+team stealing
+steal points(stealingteam,victimteam,pointstosteal)
+if(victimteam.points>=pointtosteal)
+victimteam.points-=pointtosteal;
+stealingteampoints+=pointstosteal
+console.log([stealingteam.name} stole points from {victim team name}!)
+else:
+console.log({victimteam.name} doesnt have enough points to steal)
+if teams final  answer==incorrect:
+opposing team steals
+else:
+change covid strings matchup  score
+<header.html>
+advancing rounds
+contains criteria required for a team to advance to the second round 
 advanceteams=slice(currentteams)
+<subheading.html>
+result for matchup1 
+the code for how to determine the end result of matchup1 of covid strings 
 result=declarewinner(matchup1)
 if red score>=forty:
 console.log(red protein spikers win)
 else:
+if turquoise score >=forty:
 console.log(turquoise waves win)
+else:
+remain
+<subheading.html>
+result for matchup2 
+the code for how to determine the end result of matchup2 of covid strings 
 result=declarewinner(matchup2)
 if blue score>=forty:
 console.log(blue curve crushers win)
 else:
+if indigo score>=forty:
 console.log(indigo isos win)
+else:
+remain
+<subheading.html>
+result for matchup3 
+the code for how to determine the end result of matchup3 of covid strings 
 result=declarewinner(matchup3)
 if violet score>=forty:
 console.log(violet relivers win)
 else:
+remain
+if pink score>=forty:
 console.log(pink covid disease fighters win)
 result=declarewinner(matchupr)
 if burgundy score>=forty:
 console.log(burgundy rebuilders win)
 else:
+remain
+if teal score>=forty:
 console.log(teal terminators win)
+else:
+remain
 return filename
