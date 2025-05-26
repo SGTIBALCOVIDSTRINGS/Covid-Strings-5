@@ -1,5 +1,29 @@
 doc.type.html
+html lang en
 script
+header=document create.element(header)
+header.style.backgroundcolor=#4caf50
+header.style.color=’white’
+header.style.padding=’10px’
+header.style.textalign=’center’
+header.style.text.fontsize=’24px’
+header.textcontent=’welcome to covid strings5’
+document appendchild(header)
+<header.html>
+heading Variables 
+the Heading Numbers That Determine Where Each Heading And Subheading Go 
+heading1=Game Code Overview
+heading2=Background Functions
+heading3=Game Code Part1
+heading4=Phrases
+heading5=Math Problems
+heading6=Multiple Choice Questions
+heading7=Sentences
+heading8=Game Code Part2 
+heading9=Answer Checker
+heading10=Winner Checker
+subheading1=Polling Problems
+subheading2= Answer Scanner
 filename=covidstrings5.js
 java.awt graphics
 img=document.createelement(covid)
