@@ -20,8 +20,17 @@ filename=covid strings 5 key words.js
 keywords
 key search words for covid strings5
 covid strings 5 key word list=[energy impact,trump and fauci hugging,covid high five,quarantine narrative,crx,67-23,4/5*23,one's,variant,next pandemic,china deadly viruses,pandemic warning boy cried wolf,potential threat,vaccines do not cause heart problems,based on factors beyond control,covid in america december 2019,covid northeast,covid spread 2 weeks earlier,covid circulating europe september,joe biden not to blame,still cause for concern]
+string manager non-concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
 string=””
-for string in covid strings search word list
+string manager concatenated
+insert string(entity,string)
+entity.element.text=string
+string manager insert string
+string=””
+for string in covid strings key word list
 select characters
 edit diffuse property
 desired color=green
